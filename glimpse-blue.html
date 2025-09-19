@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Glimpse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4A90E2; /* Blue background */
+    }
+
+    /* Navbar */
+    nav {
+      background: #111;
+      padding: 15px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: #4A90E2;
+    }
+
+    /* Heading */
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: white;
+    }
+
+    /* Gallery Grid */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="glimpse.html">Glimpse</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Title -->
+  <h1>Blue Glimpse</h1>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img src="blue.jpg" alt="Blue 1">
+    <img src="bl.jpg" alt="Blue 2">
+    <img src="blu.jpg" alt="Blue 3">
+    <img src="bll.jpg" alt="Blue 4">
+  </div>
+
+</body>
+</html>

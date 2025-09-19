@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Umma Jubaiya</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #111;
+      text-align: center;
+    }
+    nav {
+      background: #111;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1 {
+      margin: 40px 0 20px;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .project-card h3 {
+      margin: 15px 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="glimpse.html">Glimpse</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>My Portfolio</h1>
+
+  <div class="projects">
+    <div class="project-card">
+      <img src="code.jpg" alt="Code Project">
+      <h3>Python Code Project</h3>
+      <p>Developed a project using Python for automation and problem solving.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="code1.jpg" alt="Code1 Project">
+      <h3>Data Analysis Project</h3>
+      <p>Performed data cleaning, visualization, and analysis using Python tools.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="react.jpg" alt="React Project">
+      <h3>React Web App</h3>
+      <p>Built a responsive React application with interactive UI components.</p>
+    </div>
+  </div>
+</body>
+</html>
